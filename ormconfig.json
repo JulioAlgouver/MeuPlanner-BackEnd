@@ -1,0 +1,17 @@
+{
+    "type":"sqlite",
+    "host":"localhost",
+    "port":3306,
+    "username":"SYSDBA",
+    "password":"masterkey",
+    "database":"./src/database/database.sqlite",
+    "entities":[
+        "./src/models/*.ts"
+    ],
+    "migrations":[
+        "./src/database/migrations/*.ts"
+    ],
+    "cli":{
+        "migrationsDir":"./src/database/migrations"
+    }
+}
